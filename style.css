@@ -1,12 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 body {
     background-color: dimgray;
+    font-family: "Roboto Light", Arial;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Prosto One';
+    font-size: 50px;
+}
+
+.foreground {
+    margin: auto;
+    width: 80%;
+    background-color: #2b2a33;
+}
+
+.main_content {
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.pump_chumps {
+    margin-left: 30px;
+    width: 70%;
+}
+
+.languages {
+    margin-left: 20px;
 }
 
 h1 {
     text-align: center;
-    text-shadow: 0 0 1px blueviolet;
+    text-shadow: 2px 2px 9px rgba(0,161,239,0.5);
 }
 
-h2 {
-
+.main_text {
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 80%;
 }
+
+.pc_link {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.pc_link:link, .pc_link:visited {
+    background-color: #2292A4;
+    color: white;
+    padding: 14px 25px;
+    box-shadow: 4px 5px 10px 2px #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pc_link:hover, .pc_link:active {
+    background-color: #1d7887;
+}
+
+
+
