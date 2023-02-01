@@ -7,8 +7,15 @@ body {
 }
 
 h1 {
+    padding-top: 70px;
     font-family: 'Prosto One';
     font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 9px rgba(0,161,239,0.5);
+}
+
+h3 {
+    margin-left: 30px;
 }
 
 .foreground {
@@ -17,23 +24,21 @@ h1 {
     background-color: #2b2a33;
 }
 
-.main_content {
-    margin-top: 50px;
+.item {
     display: inline-flex;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
-.pump_chumps {
-    margin-left: 30px;
-    width: 70%;
+.pics {
+    margin-right: 20px;
 }
 
 .languages {
-    margin-left: 20px;
-}
-
-h1 {
-    text-align: center;
-    text-shadow: 2px 2px 9px rgba(0,161,239,0.5);
+    margin-left: 70%;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main_text {
@@ -42,13 +47,13 @@ h1 {
     width: 80%;
 }
 
-.pc_link {
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 100px;
+.link {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
-.pc_link:link, .pc_link:visited {
+.link:link, .link:visited {
     background-color: #2292A4;
     color: white;
     padding: 14px 25px;
@@ -58,7 +63,7 @@ h1 {
     display: inline-block;
 }
 
-.pc_link:hover, .pc_link:active {
+.link:hover, .link:active {
     background-color: #1d7887;
 }
 
